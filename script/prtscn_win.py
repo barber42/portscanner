@@ -104,13 +104,13 @@ for host in hostlist:
     print "-" * 40
     print "Traceroute"
     print "-" * 40
-    os.system("traceroute {}".format(host))
+    os.system("tracert {}".format(host))
     print "*" * 120
 
 
 
 
-
+input("--Hit any key to close--")
 
 
 
